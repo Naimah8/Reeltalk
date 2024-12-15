@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #761d21;
+  align-items: center;
+  color: #ffffff;
+  padding: 5px;
+
+}
+
+nav a {
+    float: left;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+  color: #761d21;        /* Change text color on hover */
+  background-color: #e9e3d3;  /* Add background color on hover */
+  border-radius: 5px;     /* Round the corners of the hover effect */
+}
+
+body {
+    background-color: #e9e3d3;
+    font-family: "Shantell Sans";
+}
+.hero {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 5%;
+  font-family: "Shantell Sans", serif;
+  font-size: 2em;
+    
+
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  background-color: #006674;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: #006674;
+  
+
+}
+.image1{
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 20%;
+}
+
+.aboutus-section {
+  background-color: #ba4b1b;
+  height: 80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  width: auto;
+  font-family: "Shantell Sans", serif;
+}
+
+.aboutus-section div {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Shantell Sans", serif;
+}
+
+.aboutus-section button{
+  background: linear-gradient(to right, #ba4b1b, #e9e3d3); /* Gradient background */
+  color: white; /* Text color */
+  font-size: 1em; /* Font size */
+  font-family: "Shantell Sans", serif; /* Font style */
+  padding: 10px 20px; /* Spacing inside the button */
+  border: none; /* Remove default border */
+  border-radius: 1.5625em; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  margin-bottom: 4%;
+
+}
+
+
+
+
+.title1{
+  background-color: #cfc7b0;
+  text-align: center;
+  border: 2px solid #00000000;
+  font-size: 200%;
+  font-family: "Shantell Sans", serif;
+
+    
+}
+
+.text{
+  background-color: #1e668a;
+  padding: 3px;
+  font-size: larger;
+  background-color: #cfc7b0;
+  font-size: 150%;
+  font-family: "Shantell Sans", serif;
+
+}
+
+.onder{
+    background-color: #ffffff9a;
+    border: 3px solid black;
+    max-width: 30%;
+}
+
+.afleveringen{
+    background-color: #7d9271;
+
+}
+
+.aboutus{
+    background-color: #006674;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-align: center
+}
+.aboutus img{
+  align-items: center;
+  width: 80%;
+  height: auto;
+  max-width: 80%;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Starting position */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+}
+  
+.text2{
+  text-align: center;
+  background-color: #1e668a;
+  padding: 3px;
+  font-size: 20px;
+  font-size: larger;
+  background-color: #cfc7b0;
+  font-size: 150%;
+}
+
+footer{
+  background-color: #e9e3d3; /* Dark background for the footer */
+  color: #000000; /* White text color */
+  padding: 20px;
+  text-align: center;
+}
+
+
+.afleveringen {
+    display: flex; /* Use Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping if there isn't enough space */
+    gap: 20px; /* Space between articles */
+    justify-content: center; /* Center articles within the container */
+    padding: 20px;
+  }
+
+  /* Individual article */
+  article {
+    width: 400px; /* Fixed width for each article */
+    text-align: center; /* Center-align text */
+  }
+
+  /* Image inside each article */
+  article img {
+    width: 100%; /* Image takes the full width of the article */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+  }
+
+  /* Title styling */
+  article h2 {
+    font-size: 1.2em;
+    margin: 10px 0; /* Add spacing above and below */
+  }
+
+  /* Paragraph styling */
+  article p {
+    font-size: 1em;
+    color: #555; /* Optional: Gray color for text */
+  }
+
+
+  .contact{
+    background-color: #006674;
+    width: 100%;    /* Stel de breedte van de sectie in */
+    text-align: end; /* Centreer de inhoud in de sectie */
+    justify-content: space-between;
+    
+  }
+  
+  .contact img{
+    border-radius: 1em;
+    width: 30%;    /* De afbeelding is 50% van de sectiebreedte */
+    height: auto;
+  }
+
+  .contact h2{
+    text-align: start;
+    font-size: 3em;
+    font-family: "Shantell Sans", serif;
+    color: #ffffff;
+  }
+  
+  .contactlijst{
+    text-align: start;
+    font-size: 2em;
+    font-family: "Shantell Sans", serif;
+    color: #ffffff;
+  }
+
+
+
